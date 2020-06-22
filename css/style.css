@@ -62,6 +62,7 @@
     background-size: 250%;
     border-radius: 20px;
     transition: .5s;
+    transition-timing-function: ease-in;
 }
 .btn-color:hover{
     background-position: 100% 0;
@@ -81,10 +82,11 @@
     position: relative;
     left: 10px;
     transition: .5s;
-
+    transition-timing-function: ease-in-out;
 }
 .register-form{
     transition: .5s;
+    transition-timing-function: ease-in-out;
 }
 .input-field{
     width: 100%;   
